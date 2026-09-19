@@ -1,3 +1,33 @@
+# Detect text files automatically and normalize them to LF in Git
+* text=auto eol=lf
+
+# Common text files
+*.md text
+*.txt text
+*.json text
+*.yml text
+*.yaml text
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.css text
+*.html text
+*.xml text
+*.sh text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+
 * text=auto
 *.java text eol=lf
 *.xml text eol=lf
